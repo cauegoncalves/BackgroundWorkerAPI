@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackgroundAPI.Services.Abstractions\BackgroundAPI.Services.Abstractions.csproj" />
+    <ProjectReference Include="..\BackgroundAPI.Services.TaskQueue.InMemory\BackgroundAPI.Services.TaskQueue.InMemory.csproj" />
+    <ProjectReference Include="..\BackgroundAPI.Services.Worker.ConsoleWrite\BackgroundAPI.Services.Worker.ConsoleWrite.csproj" />
+  </ItemGroup>
+
+
+</Project>
